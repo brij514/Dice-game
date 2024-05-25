@@ -43,7 +43,7 @@ const GamePlay = () => {
       </div>
       <RoleDice CurrentDice={CurrentDice} roleDice={roleDice} />
       <div className="btns">
-        <OutlineButton>Reset</OutlineButton>
+        <Button>Reset</Button>
         <Button>Show Rules</Button>
       </div>
     </MainContainer>
